@@ -1,0 +1,27 @@
+# Credentials — NEVER commit these
+.env
+*.env
+
+# Database (personal trade history)
+learning/tradeiq_memory.db
+learning/algo_params.json
+
+# Logs (personal session data)
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Backup files
+*_backup.py
+
+# IDE
+.vscode/
+.idea/
